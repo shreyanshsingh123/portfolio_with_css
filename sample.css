@@ -51,6 +51,12 @@
     justify-content: center;
 }
 @media(max-width:650px){
+    .grad{
+        padding-left: 70px;
+    }
+    .grad .second{
+        font-size: 30px;
+    }
     .main{
         display:grid;
     }
@@ -76,7 +82,8 @@
         right:70px;
     }
     .skill{
-        width:30px;
+        justify-content: right;
+        width:80px;
     }
        
 }
