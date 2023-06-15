@@ -45,15 +45,23 @@
     height:200px;
     justify-content: center;
 }
+.skill{
+    display:flex;
+    margin-left: 220px;
+    justify-content: center;
+}
 @media(max-width:650px){
+    .main{
+        display:grid;
+    }
     .img{
         position:relative;
         right:80px;
         height:150px;
     }
     .info{
-        position:relative;
-        
+        position:relative; 
+        margin-left: 100px;       
     }
     .name{
         position:relative;
@@ -67,7 +75,10 @@
         position:relative;
         right:70px;
     }
-    
+    .skill{
+        width:30px;
+    }
+       
 }
 
 
